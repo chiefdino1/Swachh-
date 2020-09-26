@@ -1,0 +1,167 @@
+.p3{
+	position: absolute;
+	top:200%;
+	left:0;
+	z-index:-8;
+	min-height:25%;
+	width:100%;
+	background-color: black;
+	opacity:0.5;
+
+}
+.fb{
+	position: absolute;
+	z-index:-7;
+	opacity:1;
+	background-image: url('fwhite.png');
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	background-position: 50%;
+	border-radius: 50%;
+	top:210%;
+	left:10%;
+	min-height: 70px;
+	min-width:70px;
+	background-color:white;
+	filter:sepia(100%);
+	-webkit-filter:sepia(100%);
+	transition: 0.4s;
+	cursor:pointer;
+}
+.fb:hover{
+	filter: sepia(0%);
+	-webkit-filter:sepia(0%);
+}
+.twitter{
+	position: absolute;
+	z-index:-7;
+	opacity:1;
+	background-image: url('twhite.png');
+	top:210%;
+	left:20%;
+	min-height: 70px;
+	min-width:70px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	background-color:white;
+	filter:sepia(100%);
+	-webkit-filter:sepia(100%);
+	transition: 0.4s;
+	cursor:pointer;
+}
+.twitter:hover{
+	filter: sepia(0%);
+	-webkit-filter:sepia(0%);
+}
+.gplus{
+	position: absolute;
+	z-index:-7;
+	opacity:1;
+	background-image: url('gwhite.png');
+	top:210%;
+	left:30%;
+	min-height: 70px;
+	min-width:70px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	background-color:white;
+	filter:sepia(100%);
+	-webkit-filter:sepia(100%);
+	transition: 0.4s;
+	cursor:pointer;
+}
+.gplus:hover{
+	filter: sepia(0%);
+	-webkit-filter:sepia(0%);
+
+}
+.amazon{
+	position: absolute;
+	z-index:-7;
+	opacity:1;
+	background-image: url('awhite.png');
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	background-position: 50%;
+	border-radius: 50%;
+	top:210%;
+	left:40%;
+	min-height: 70px;
+	min-width:70px;
+	background-color:white;
+	filter:sepia(100%);
+	-webkit-filter:sepia(100%);
+	transition: 0.4s;
+	cursor:pointer;
+}
+.amazon:hover{
+	filter: sepia(0%);
+	-webkit-filter:sepia(0%);
+}
+.snapdeal{
+	position: absolute;
+	z-index:-7;
+	opacity:1;
+	background-image: url('swhite.png');
+	top:210%;
+	left:50%;
+	min-height: 70px;
+	min-width:70px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	background-color:white;
+	filter:sepia(100%);
+	-webkit-filter:sepia(100%);
+	transition: 0.4s;
+	cursor:pointer;
+}
+.snapdeal:hover{
+	filter: sepia(0%);
+	-webkit-filter:sepia(0%);
+}
+.flipkart{
+	position: absolute;
+	z-index:-7;
+	opacity:1;
+	background-image: url('fwhite.jpg');
+	top:210%;
+	left:60%;
+	min-height: 70px;
+	min-width:70px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	background-color:white;
+	filter:sepia(100%);
+	-webkit-filter:sepia(100%);
+	transition: 0.4s;
+	cursor:pointer;
+}
+.flipkart:hover{
+	filter: sepia(0%);
+	-webkit-filter:sepia(0%);
+
+}
+.like{
+	position: absolute;
+	z-index: -7;
+	opacity: 1;
+	top:203%;
+	left:5%;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+}
+.buy{
+	position: absolute;
+	z-index: -7;
+	opacity: 1;
+	top:203%;
+	left:55%;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+}

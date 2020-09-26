@@ -1,0 +1,63 @@
+.p2{
+	position:absolute;
+	top:100%;
+	left:0;
+	width:100%;
+	min-height:100%;
+	z-index:-8;
+	background-color: white;
+	overflow: hidden;
+}
+.img-slider{
+	position: absolute;
+	height:100%;
+	width:400%;
+	margin:0;
+	padding:0;
+	list-style: none;
+	transition: all 2s;
+	animation: 20s slider infinite;
+	animation-delay: 3s;
+	overflow: hidden;
+}
+@keyframes slider{
+	0% {
+		margin-left:0%;
+	}
+	10%{
+		margin-left:0%;
+	}
+	15% {
+		margin-left:-100%;
+	}
+	30% {
+		margin-left:-200%;
+	}
+	45% {
+		margin-left:-300%;
+	}
+	60% {
+		margin-left:-300%;
+	}
+	75% {
+		margin-left:-200%;
+	}
+	90% {
+		margin-left:-100%;
+	}
+	100% {
+		margin-left:0%;
+	}
+	
+}
+.imgs{
+	position: relative;
+	width:25%;
+	height:758px;
+	float: left;
+	overflow:hidden;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}

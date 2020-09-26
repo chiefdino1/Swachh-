@@ -1,0 +1,143 @@
+.p2{
+	position:absolute;
+	top:100%;
+	left:0;
+	width:100%;
+	min-height:100%;
+	z-index:-8;
+	background:white;
+}
+.header{
+	position: absolute;
+	top:0;
+	text-align: center;
+	width:100%;
+	color: #767676;
+	font-size:50px;
+	font-family: 'Arial', sans-serif;
+	border-bottom:solid 1px #767676;
+}
+.body{
+	position: absolute;
+	top:15%;
+	left:2%;
+	color:#767676;
+	font-size: 30px;
+	font-family:sans-serif;
+}
+.team{
+	position:absolute;
+	top:50%;
+	width:50%;
+	border-bottom: solid 1px #767676;
+	color:#767676;
+	font-size:30px;
+	font-family: 'Arial', sans-serif;
+}
+.team1{
+	position: absolute;
+	top:62%;
+	left:10%;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	filter:grayscale(100%);
+	-webkit-filter:grayscale(100%);
+	transition-property: filter;
+	transition-duration: 0.2s;
+	-webkit-transition-property: filter;
+	-webkit-transition-duration: 0.5s;
+}
+.team1:hover{
+	filter:grayscale(0%);
+	-webkit-filter:grayscale(0%);
+}
+
+.team2{
+	position: absolute;
+	top:62%;
+	left:30%;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	filter:grayscale(100%);
+	-webkit-filter:grayscale(100%);
+	transition-property: filter;
+	transition-duration: 0.2s;
+	-webkit-transition-property: filter;
+	-webkit-transition-duration: 0.5s;
+}
+.team2:hover{
+	filter:grayscale(0%);
+	-webkit-filter:grayscale(0%);
+}
+
+.team3{
+	position: absolute;
+	top:62%;
+	left:50%;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	filter:grayscale(100%);
+	transition-property: filter;
+	transition-duration: 0.2s;
+	-webkit-transition-property: filter;
+	-webkit-transition-duration: 0.5s;
+	-webkit-filter:grayscale(100%);
+}
+.team3:hover{
+	filter:grayscale(0%);
+	-webkit-filter:grayscale(0%);
+}
+.team4{
+	position: absolute;
+	top:62%;
+	left:70%;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	filter:grayscale(100%);
+	-webkit-filter:grayscale(100%);
+	transition-property: filter;
+	transition-duration: 0.2s;
+	-webkit-transition-property: filter;
+	-webkit-transition-duration: 0.5s;
+}
+.team4:hover{
+	filter:grayscale(0%);
+	-webkit-filter:grayscale(0%);
+}
+.team11{
+	position: absolute;
+	top:90%;
+	left:12%;
+	font-size:20px;
+	color:#767676;
+	border-radius:50%;
+}
+.team22{
+	position: absolute;
+	top:90%;
+	left:32%;
+	font-size:20px;
+	color:#767676;
+	border-radius:50%;
+}
+.team33{
+	position: absolute;
+	top:90%;
+	left:52%;
+	font-size:20px;
+	color:#767676;
+	border-radius:50%;
+}
+.team44{
+	position: absolute;
+	top:90%;
+	left:72%;
+	font-size:20px;
+	color:#767676;
+	border-radius:50%;
+}
+

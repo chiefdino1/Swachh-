@@ -1,0 +1,42 @@
+.p1{
+	position: fixed;
+	top:0;
+	left: 0;
+	height:100%;
+	width:100%;
+	z-index:-10; 
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-image:url('aboutuscover.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	opacity: 0.5;
+}
+
+.panim{
+	z-index:-9;
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	font-family:'Arial', Cursive;
+	font-size:50px;
+	list-style-type:none;
+	display: inline-block;
+	color: black;
+	transform: translateX(-40%) translateY(-40%);
+	opacity:1;
+}
+.panim:hover{
+	cursor:default;
+}
+.panim li{
+	display: inline-block;
+	margin-right:15px;
+	font-weight: 300;
+	transition:all 0.1s;
+	-webkit-transition:all 0.1s;
+}
+
+
